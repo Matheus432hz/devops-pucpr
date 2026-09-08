@@ -16,5 +16,5 @@ jobs:
         with:
           name: my-artifact-zipped.zip
           path: |
-            '**'.py'
+            '**.py'
             README.md
