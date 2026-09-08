@@ -14,7 +14,7 @@ jobs:
       - name: simulating continuous delivery 
         uses: actions/upload-artifact@v4
         with:
-          name: my-artifact-zipped
+          name: my-artifact-zipped-cd
           path: |
             *.py
             README.md
